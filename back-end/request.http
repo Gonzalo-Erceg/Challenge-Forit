@@ -1,0 +1,23 @@
+POST http://localhost:3001/api/tasks/
+Content-Type: application/json
+
+{
+    "title":"Primera tarea",
+    "description":"tareita",
+
+}
+
+
+### OBTENER TAREAS
+
+GET http://localhost:3001/api/tasks/
+
+
+### CAMBIAR TAREA 
+
+PUT http://localhost:3001/api/tasks/1
+Content-Type: application/json
+
+{
+    "completed":1
+}

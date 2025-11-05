@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-bg: #e8f9ff;
+  --primary: #88c6ff;
+}
+
+@import "tailwindcss";
